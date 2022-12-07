@@ -1,3 +1,6 @@
-.navbar-focus:hover {
-  border-top: 0.1875 rem solid white;
+.links {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

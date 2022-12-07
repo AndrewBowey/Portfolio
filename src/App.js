@@ -12,7 +12,6 @@ function App() {
         <Route exact path="/" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
 
-        <Route path="/contact" />
         <Route path="/resume" element={<Pdf />} />
         <Route path="/projects" />
       </Routes>
