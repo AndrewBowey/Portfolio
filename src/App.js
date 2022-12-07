@@ -3,6 +3,7 @@ import NotFound from "./Pages/NotFound";
 import Dashboard from "./Pages/Dashboard.js";
 import NavBar from "./Components/Navbar";
 import Pdf from "./Pages/Pdf";
+import Projects from "./Pages/Projects";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
 
         <Route path="/resume" element={<Pdf />} />
-        <Route path="/projects" />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
   );
