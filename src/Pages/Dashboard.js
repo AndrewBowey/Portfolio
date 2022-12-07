@@ -1,5 +1,11 @@
+import SocialButtons from "../Components/SocialButtons";
+import "../App.css";
 function Dashboard() {
-  return <h2>Dashboard</h2>;
+  return (
+    <div class="links">
+      <SocialButtons />
+    </div>
+  );
 }
 
 export default Dashboard;
