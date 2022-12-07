@@ -1,6 +1,26 @@
 .links {
-  height: 75vh;
+  padding-bottom: 3vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.photos {
+  width: 20vw;
+  height: 75vh;
+  flex: 1 1 400px;
+}
+
+.photosdiv {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.navbar {
+  padding-bottom: 0%;
+}
+
+.pdf {
+  width: 90vw;
+  height: auto;
 }
