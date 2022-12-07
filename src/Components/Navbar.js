@@ -48,9 +48,6 @@ function NavBar() {
               <Nav.Link as={Link} to="/resume">
                 Resume
               </Nav.Link>
-              <Nav.Link as={Link} to="/certsandrecs/">
-                Certificates and Recognition
-              </Nav.Link>
               <Nav.Link as={Link} to="/contact">
                 Contact
               </Nav.Link>
